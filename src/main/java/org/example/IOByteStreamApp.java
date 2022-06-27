@@ -7,7 +7,7 @@ import java.io.IOException;
 public class IOByteStreamApp {
     public static void main(String[] args) {
         try {
-            byte byteWrite[] = {1, 2, 3, 4, 5};
+            byte[] byteWrite = {1, 2, 3, 4, 5};
             var fileName = "src/main/java/org/example/output-iobyte-stream.txt";
             var fileOutputStream = new FileOutputStream(fileName);
 
